@@ -23,7 +23,6 @@
     display: flex;
     padding: 10px;
     align-items: center;
-
 }
 
 .logo {
@@ -179,6 +178,9 @@
     color: black;
     font-size: 16px;
     align-items: flex-start;
+    font-weight: 500;
+    line-height: 24.18px;
+    font-style: bold;
 }
 
 .column {
@@ -204,6 +206,20 @@
     border: 0px;
     font-weight: bold;
 }
+.pill2 {
+    padding: 10px;
+    left: 1140.54px;
+    top: 65px;
+    gap: 10px;
+    width: 70px;
+    height: 43px;
+    color: white;
+    background: #8B48BF;
+    border-radius: 30px;
+    border: 0px;
+    font-weight: bold;
+    display: none;
+}
 
 .frame456 {
     width: 553px;
@@ -223,7 +239,6 @@
 
 h4 {
     width: 240px;
-    ;
     height: 23px;
     font-size: 16px;
     color: #323851;
@@ -429,7 +444,10 @@ footer p {
     font-weight: 500;
     font-size: 0.625rem;
 }
-
+.nav_inferior{
+    display: flex;
+    flex-direction: row;
+}
 .a {
     font-size: 16px;
     font-weight: 400;
@@ -499,9 +517,12 @@ input {
 
     .button_menu {
         display: block;
+        width: 46.88px;
+        height: 41.25px;
     }
     .ilustracion {
         width: 480px;
+        margin-bottom:200px ;
     }
     .body {
         width: 480px;
@@ -525,37 +546,39 @@ input {
         margin-top: 20px;
         margin-left: 20px;
     }
-
+/*home*/
     .home {
-        width: auto;
+        width: 439px;
         height: auto;
         margin-top: 45px;
         margin-left: 0%;
-        margin-bottom: 220px;
+        margin-bottom: 0%;
+        display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .frase_home {
+               text-align: center;
+               align-items: center;
+    }
+    .h1 {
+        text-align: center;
+        vertical-align: Center;
     }
 
     .sobre_nosotros {
         width: auto;
         height: auto;
-        margin-top: 99px;
+        margin-top: 100px;
         margin-left: 0%;
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
-    }
-
-    h4 {
-        background-color: #8B48BF4D;
-        width: 446px;
-        height: 43px;
-        font-size: 16px;
-        font-weight: 700;
-        line-height: 23.38px;
-        color: #323851;
-        font-style: bold;
-    }
+    }    
+        /*Testimonis*/
 
     .testimonios {
         width: auto;
@@ -568,6 +591,39 @@ input {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+    }
+    .frame2 {
+        align-items: center;
+        text-align: center;
+    }
+    .h2 {
+        text-align:center;
+      }
+      .manage2 {
+        width: 433px;
+        align-items: center;
+        text-align: center;
+    }
+        
+    .column {
+        width: 446px;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .pill {
+        display: none;
+    }
+    .pill2 {
+        display: inline-block;
+    }
+
+    h4 {
+        width:446px ;
+        height: 43px;
+        text-align: left;
+        margin-left: 40px;
+        background-color:#8B48BF4D ;
+
     }
 
     .grupo1 {
