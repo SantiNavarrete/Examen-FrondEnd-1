@@ -13,7 +13,6 @@
     padding: 0%;
     font-size: 16px;
     font-family: 'Be Vietnam';
-    
 
 }
 
@@ -73,7 +72,7 @@
     color: rgba(0, 0, 0, 0.25);
 }
 
-.button_menu{
+.button_menu {
     display: none;
 }
 
@@ -451,7 +450,9 @@ footer p {
     justify-content: space-between;
     color: #8C8C94;
 }
-
+.copyright2 {
+    display: none;
+}
 .button_go {
     border-radius: 50px;
     border: none;
@@ -462,8 +463,9 @@ footer p {
     padding: 10px;
     height: 42px;
     width: 63px;
-color: #FFFFFF;
+    color: #FFFFFF;
 }
+
 .button_go:hover {
     color: rgba(174, 141, 141, 0.25);
 }
@@ -484,44 +486,44 @@ input {
 
 
 /*@MEDIA*/
-@media only screen and (max-width:1000px){
-    
-    
-    .nav{
+@media only screen and (max-width:480px) {
+
+
+    .nav {
         display: none;
-    }
-    .button{
-        display: none;
-    }
-    .button_menu{
-        display: block;
-        background-color: transparent;
-  border: 10px;
-  color: black;
-  cursor: pointer;
-  font-size: 30px;
-  margin-left: 32px;
-  float: left;
-  line-height: 70px;
     }
 
-    .body {background-color: blueviolet;
-        width: 480px ;
-        height: 3555px;                      
+    .button {
+        display: none;
+    }
+
+    .button_menu {
+        display: block;
+    }
+    .ilustracion {
+        width: 480px;
+    }
+    .body {
+        width: 480px;
+        height: 3555px;
         display: flex;
         flex-direction: column;
-        justify-content: center ;
+        justify-content: center;
         align-items: center;
+        margin-left: 10px;
+
 
     }
+
     .header {
         width: 405.54px;
         height: 60px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding: 10px;
         align-items: center;
+        margin-top: 20px;
+        margin-left: 20px;
     }
 
     .home {
@@ -533,6 +535,7 @@ input {
         flex-direction: column-reverse;
         align-items: center;
     }
+
     .sobre_nosotros {
         width: auto;
         height: auto;
@@ -540,9 +543,10 @@ input {
         margin-left: 0%;
         justify-content: space-between;
         align-items: center;
-       flex-direction: column;}
-    
-       h4{
+        flex-direction: column;
+    }
+
+    h4 {
         background-color: #8B48BF4D;
         width: 446px;
         height: 43px;
@@ -552,6 +556,7 @@ input {
         color: #323851;
         font-style: bold;
     }
+
     .testimonios {
         width: auto;
         height: auto;
@@ -564,17 +569,22 @@ input {
         justify-content: space-between;
         align-items: center;
     }
+
     .grupo1 {
-        display: none;}
+        display: none;
+    }
+
     .grupo3 {
         display: none;
     }
+
     .grupo2 {
         width: 445px;
         height: 254px;
         text-align: center;
-        justify-content: center;      
+        justify-content: center;
     }
+
     .frame9 {
         background-color: #8B48BF;
         width: 484px;
@@ -584,15 +594,17 @@ input {
         justify-content: center;
         align-items: flex-start;
     }
+
     .frame8 {
         width: auto;
         height: auto;
         display: flex;
         flex-direction: column;
-        justify-content:space-between ;
+        justify-content: space-between;
         align-items: center;
     }
-    h3{
+
+    h3 {
         color: #FFFFFF;
         font-size: 40px;
         width: 324px;
@@ -601,16 +613,60 @@ input {
         text-align: center;
         margin-bottom: 50px;
     }
+
     footer {
         background-color: #1E1E26;
         width: 480px;
-        height:535px ;
+        height: 535px;
         justify-content: center;
     }
+
     .footer {
         display: flex;
-        flex-direction: row;
+        flex-direction: column-reverse;
         justify-content: space-around;
+        align-items: center;
         padding: 53px 0px;
+    }
+
+    .section_iconos {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin-top: 55px;
+
+    }
+
+    .iconos {
+        display: flex;
+        margin-bottom: 50px;
+        margin-left: 30px;
+        margin-right: 70px;
+        text-align: center;
+        justify-content: space-around;
+    }
+
+    .i {
+        margin-left: 40px;
+    }
+
+    .copyright {
+        display: none;
+    }
+
+    .copyright2 {
+        display: block;
+        text-align: center;
+    }
+
+    .nav_inferior {
+        width: 344px;
+        height: 161.14;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-left: 68px;
+        margin-right: 68px;
     }
 }
